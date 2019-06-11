@@ -1,0 +1,45 @@
+{
+  "entrypoints": [
+    "index"
+  ],
+  "origins": {
+    "index": [
+      0
+    ],
+    "./loremIpsum": [
+      1
+    ],
+    "./title": [
+      2
+    ]
+  },
+  "assets": {
+    "0": {
+      "js": [
+        {
+          "file": "index.js",
+          "hash": "856a2068aae00b2fa915",
+          "publicPath": "/dist/index.js"
+        }
+      ]
+    },
+    "1": {
+      "js": [
+        {
+          "file": "lorem-ipsum.chunk.js",
+          "hash": "8e32fab3e4bf998bd13d",
+          "publicPath": "/dist/lorem-ipsum.chunk.js"
+        }
+      ]
+    },
+    "2": {
+      "js": [
+        {
+          "file": "title.chunk.js",
+          "hash": "83fde929b266b88c3759",
+          "publicPath": "/dist/title.chunk.js"
+        }
+      ]
+    }
+  }
+}
